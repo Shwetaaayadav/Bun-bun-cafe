@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bun Bun Cafe - Order Online</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">Bun Bun Cafe</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="order.html">Order Online</a></li>
+        <li><a href="registration.html">Loyalty Registration</a></li>
+        <li><a href="loyalty.html">My Loyalty Points</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <section class="order-section">
+      <h1>Order Online</h1>
+      <form>
+        <label for="item">Select Item:</label>
+        <select id="item">
+          <option>Espresso - $3.00</option>
+          <option>Americano - $3.50</option>
+          <option>Latte - $4.00</option>
+          <option>Cappuccino - $4.50</option>
+          <option>Caramel Mocha Latte - $5.00</option>
+          <option>Matcha Latte - $5.50</option>
+          <option>Strawberry Frappe - $5.00</option>
+          <option>Bun Parfait</option>
+        </select>
+
+        <label for="customization">Customization:</label>
+        <textarea
+          id="customization"
+          placeholder="e.g., Extra shot, Almond milk, Bunny art..."
+        ></textarea>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" min="1" value="1" />
+
+        <button type="submit">Place Order</button>
+      </form>
+      <p>
+        Note: This is a demo form. In a real site, this would connect to a
+        backend for processing.
+      </p>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Bun Bun Cafe. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

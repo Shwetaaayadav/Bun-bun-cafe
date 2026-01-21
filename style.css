@@ -1,0 +1,193 @@
+/* style.css */
+
+body {
+  background-color: #f5f5dc; /* Beige */
+  font-family: "Comic Neue", sans-serif;
+  color: #5d3a1a; /* Brown for text */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #e0c8a0; /* Light brown */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-family: "Pacifico", cursive;
+  font-size: 24px;
+  color: #8b4513; /* Dark brown */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #5d3a1a;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #d2691e; /* Chocolate */
+}
+
+.home-header {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.home-header h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 48px;
+}
+
+.clickable-image {
+  cursor: pointer;
+  max-width: 400px;
+  border: 2px solid #e0c8a0;
+  border-radius: 10px;
+}
+
+.pinterest-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  background-color: #fffaf0; /* Floral white */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-style: italic;
+}
+
+.menu-section,
+.order-section,
+.registration-section,
+.loyalty-section,
+.about-section,
+.contact-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.menu-item {
+  background-color: #fffaf0;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item.special {
+  border: 2px dashed #d2691e;
+}
+
+h1,
+h2 {
+  font-family: "Pacifico", cursive;
+  color: #8b4513;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+select,
+textarea,
+button {
+  padding: 10px;
+  border: 1px solid #e0c8a0;
+  border-radius: 5px;
+  font-family: "Comic Neue", sans-serif;
+}
+
+button {
+  background-color: #d2691e;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #8b4513;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #e0c8a0;
+  margin-top: 20px;
+}
+.menu-img {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  box-shadow: 0 3px 8px rgba(139, 69, 19, 0.15);
+  border: 2px solid #e0c8a0;
+}
+
+.menu-item {
+  background-color: #fffaf0;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.menu-item h2 {
+  margin: 8px 0 4px;
+  font-size: 1.4em;
+}
+
+.menu-item p {
+  margin: 4px 0;
+  font-size: 1.1em;
+  color: #8b4513;
+}
+.about-img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 30px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(139, 69, 19, 0.18);
+  border: 3px solid #e0c8a0;
+  object-fit: cover;
+}
+
+.about-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-section p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin: 20px 0;
+  color: #5d3a1a;
+}
