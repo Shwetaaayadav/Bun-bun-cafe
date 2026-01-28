@@ -4,12 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bun Bun Cafe - Home</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-08XWFZYVPL"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-08XWFZYVPL");
+    </script>
+    <!-- End Google Analytics -->
+
     <link
       href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Pacifico&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <nav class="navbar">
       <div class="logo">Bun Bun Cafe</div>
@@ -31,7 +48,7 @@
         wonderland.
       </p>
       <img
-        src="https://i.pinimg.com/originals/63/b9/24/63b92482de41c0fe48ef7586ea679c36.png"
+        src="images/menu.png"
         alt="Cute Cafe Menu"
         class="clickable-image"
         onclick="window.location.href = 'menu.html'"
@@ -51,5 +68,3 @@
     </footer>
   </body>
 </html>
-
-
